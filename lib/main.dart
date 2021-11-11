@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'GettingScreen/GettingStartedScreen.dart';
+import 'splashscreen/splashscreen.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -13,6 +14,6 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(),
-        home: GettingStartedScreen());
+        home: SplashScreenPage());
   }
 }
